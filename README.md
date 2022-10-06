@@ -1,14 +1,23 @@
-Instabug Challenge
+# Instabug Coding Challenge
 
 
-Rquirement
-docker and docker-compose
+## Rquirement
+`docker` and `docker-compose`
+
+## Environment
+- Ruby 
+- Rails
+- Mysql 
+- Elasticsearch 
+- sidekiq with sidekiq-scheduler
+- Redis
+
+## Setup
+- run `docker-compose up` and you're good to go
+- API can be accessed from `localhost` on port `300`
+- Elasticsearch can be accessed from `localhost` on port `9200`
 
 
-Environment
-Ruby 2.3.5
-Rails 5.0.7
-Mysql 5.7.19
-Elasticsearch 5.5.2
-sidekiq 3.6.12 with sidekiq-scheduler plugin
-Redis
+## Testing the API
+### Postman Collection
+use this [collection](https://github.com/Salah1796/RailsChat/blob/main/Rails%20Chte.postman_collection.json) to test the API endpoints using Postman
