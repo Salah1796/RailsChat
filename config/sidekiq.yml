@@ -1,0 +1,7 @@
+:schedule:
+  update_application_chat_number_job:
+    every: '30m' 
+    class: UpdateApplicationChatNumberJob
+  update_chat_messages_number_job:
+    every: '30m' 
+    class: UpdateChatMessagesNumberJob

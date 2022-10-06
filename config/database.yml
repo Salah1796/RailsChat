@@ -1,0 +1,17 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  database: chatapp
+  username: salah
+  password: password
+  host: db
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
