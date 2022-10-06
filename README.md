@@ -1,24 +1,14 @@
-# README
+Instabug Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Rquirement
+docker and docker-compose
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Environment
+Ruby 2.3.5
+Rails 5.0.7
+Mysql 5.7.19
+Elasticsearch 5.5.2
+sidekiq 3.6.12 with sidekiq-scheduler plugin
+Redis
