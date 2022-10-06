@@ -14,7 +14,7 @@
 
 ## Setup
 - run `docker-compose up` and you're good to go
-- API can be accessed from `localhost` on port `300`
+- API can be accessed from `localhost` on port `3000`
 - Elasticsearch can be accessed from `localhost` on port `9200`
 
 
