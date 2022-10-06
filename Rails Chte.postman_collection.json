@@ -1,0 +1,361 @@
+{
+	"info": {
+		"_postman_id": "f36a4200-1d77-4c76-905f-9326b80782a2",
+		"name": "Rails Chte",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Application",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/applications",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"applications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Chats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/applications/8e71e518-ffaa-4f82-843a-a1227215db2c/chats",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"applications",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"chats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URl}}/applications",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"applications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"tes3t\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URl}}/applications/8e71e518-ffaa-4f82-843a-a1227215db2c",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"applications",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/applications/8e71e518-ffaa-4f82-843a-a1227215db2c",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"applications",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chat",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URl}}/chats/8e71e518-ffaa-4f82-843a-a1227215db2c",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"chats",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/chats/8c850a2d-6961-4184-86d0-3863a132496b/1",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"chats",
+								"8c850a2d-6961-4184-86d0-3863a132496b",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "messages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/chats/8e71e518-ffaa-4f82-843a-a1227215db2c/48/messages",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"chats",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"48",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Message",
+			"item": [
+				{
+					"name": "Creat",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Body\":null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URl}}/messages/8e71e518-ffaa-4f82-843a-a1227215db2c/48",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"messages",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"48"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/messages/8e71e518-ffaa-4f82-843a-a1227215db2c/2/2",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"messages",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"2",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Body\":\"my name salah mahmoud 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URl}}/messages/8e71e518-ffaa-4f82-843a-a1227215db2c/2/2",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"messages",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"2",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URl}}/messages/8e71e518-ffaa-4f82-843a-a1227215db2c/48/search/mahmoud",
+							"host": [
+								"{{API_URl}}"
+							],
+							"path": [
+								"messages",
+								"8e71e518-ffaa-4f82-843a-a1227215db2c",
+								"48",
+								"search",
+								"mahmoud"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "elasticsearch",
+			"item": [
+				{
+					"name": "Index",
+					"item": [
+						{
+							"name": "serach",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{Elastic_api}}messages/_search",
+									"host": [
+										"{{Elastic_api}}messages"
+									],
+									"path": [
+										"_search"
+									],
+									"query": [
+										{
+											"key": "query",
+											"value": "abc",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API_URl",
+			"value": "http://localhost:3000",
+			"type": "default"
+		},
+		{
+			"key": "Elastic_api",
+			"value": "http://localhost:9200",
+			"type": "default"
+		}
+	]
+}
